@@ -1,4 +1,4 @@
-streamlit
-json
-google.generativeai 
+import streamlit as st
+import json
+import google.generativeai as genai
 from google.api_core import exceptions
