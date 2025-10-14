@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "funcion": "$y=-18$",
+    "derivada": "$dy/dx=0$"
+  },
+  {
+    "id": 2,
+    "funcion": "$y=\\pi^6$",
+    "derivada": "$dy/dx=0$"
+  },
+  {
+    "id": 3,
+    "funcion": "$y=x^9$",
+    "derivada": "$dy/dx=9x^8$"
+  },
+  {
+    "id": 4,
+    "funcion": "$y=4x^{12}$",
+    "derivada": "$dy/dx=48x^{11}$"
+  },
+  {
+    "id": 5,
+    "funcion": "$y=7x^2-4x$",
+    "derivada": "$dy/dx=14x-4$"
+  },
+  {
+    "id": 6,
+    "funcion": "$y=6x^3+3x^2-10$",
+    "derivada": "$dy/dx=18x^2+6x$"
+  },
+  {
+    "id": 7,
+    "funcion": "$y=4\\sqrt{x}-\\frac{6}{\\sqrt[3]{x^2}}$",
+    "derivada": "$dy/dx=2x^{-1/2}+4x^{-5/3}=\\frac{2}{\\sqrt{x}}+\\frac{4\\sqrt[3]{x}}{x^2}$"
+  },
+  {
+    "id": 8,
+    "funcion": "$y=\\frac{x-x^2}{\\sqrt{x}}$",
+    "derivada": "$dy/dx=\\frac{1}{2}x^{-1/2}-\\frac{3}{2}x^{1/2}=\\frac{1}{2\\sqrt{x}}-\\frac{3}{2}\\sqrt{x}$"
+  },
+  {
+    "id": 9,
+    "funcion": "$f(x)=\\frac{1}{5}x^5-3x^4+9x^2+1$",
+    "derivada": "$f'(x)=x^4-12x^3+18x$"
+  },
+  {
+    "id": 10,
+    "funcion": "$f(x)=-\\frac{2}{3}x^6+4x^5-13x^2+8x+2$",
+    "derivada": "$f'(x)=-4x^5+20x^4-26x+8$"
+  },
+  {
+    "id": 11,
+    "funcion": "$f(x)=x^3(4x^2-5x-6)$",
+    "derivada": "$f'(x)=20x^4-20x^3-18x^2$"
+  },
+  {
+    "id": 12,
+    "funcion": "$f(x)=\\frac{2x^5+3x^4-x^3+2}{x^2}$",
+    "derivada": "$f'(x)=6x^2+6x-1-\\frac{4}{x^3}$"
+  },
+  {
+    "id": 13,
+    "funcion": "$f(x)=x^2(x^2+5)^2$",
+    "derivada": "$f'(x)=6x^5+40x^3+50x$"
+  },
+  {
+    "id": 14,
+    "funcion": "$f(x)=(x^3+x^2)^3$",
+    "derivada": "$f'(x)=9x^8+24x^7+21x^6+6x^5$"
+  },
+  {
+    "id": 15,
+    "funcion": "$f(x)=(4\\sqrt{x}+1)^2$",
+    "derivada": "No proporcionada en el solucionario"
+  },
+  {
+    "id": 16,
+    "funcion": "$f(x)=(9+x)(9-x)$",
+    "derivada": "$f'(x)=-2x$"
+  },
+  {
+    "id": 17,
+    "funcion": "$h(u)=(4u)^3$",
+    "derivada": "$h'(u)=192u^2$"
+  },
+  {
+    "id": 18,
+    "funcion": "$p(t)=(2t)^{-4}-(2t^{-1})^2$",
+    "derivada": "$p'(t)=-\\frac{1}{4}t^{-5}+8t^{-3}=-\\frac{1}{4t^5}+\\frac{8}{t^3}$"
+  },
+  {
+    "id": 19,
+    "funcion": "$g(r)=\\frac{1}{r}+\\frac{1}{r^2}+\\frac{1}{r^3}+\\frac{1}{r^4}$",
+    "derivada": "$g'(r)=-r^{-2}-2r^{-3}-3r^{-4}-4r^{-5}=-\\frac{1}{r^2}-\\frac{2}{r^3}-\\frac{3}{r^4}-\\frac{4}{r^5}$"
+  },
+  {
+    "id": 20,
+    "funcion": "$Q(t)=\\frac{t^5+4t^2-3}{6}$",
+    "derivada": "$Q'(t)=\\frac{5t^4+8t}{6}$"
+  }
+]
