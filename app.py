@@ -26,7 +26,7 @@ def cargar_ejercicios(ruta_archivo="derivadas.json"):
 
 EJERCICIOS = cargar_ejercicios()
 
-# --- 3. FUNCIONES DE LA IA (CON EL PROMPT DEFINITIVO) ---
+# --- 3. FUNCIONES DE LA IA ---
 
 def generar_contexto_db(ejercicios):
     """Formatea la lista de ejercicios del JSON para que el modelo sepa qué puede enseñar."""
@@ -171,7 +171,7 @@ def obtener_respuesta_ia(historial, ejercicios):
         st.error(f"Ocurrió un error inesperado al contactar la API: {e}")
         return "Lo siento, estoy teniendo problemas técnicos."
 
-# --- 4. INTERFAZ DE STREAMLIT (SIN CAMBIOS) ---
+# --- 4. INTERFAZ DE STREAMLIT---
 st.title("👨‍🏫 Profesor Interactivo de Derivadas")
 st.caption("Elige un ejercicio y te enseñaré a resolverlo. ¡Pregúntame lo que necesites!")
 
@@ -229,9 +229,6 @@ else:
     for ej in EJERCICIOS:
         st.sidebar.markdown(f"**ID {ej['id']}:** {ej['funcion']}")
     
-
-
-
     if "messages" not in st.session_state:
         st.session_state.messages = [
             {"role": "assistant", "content": "¡Hola! Soy tu profesor de cálculo. Elige un ejercicio de la lista (por su ID) y te enseñaré a resolverlo paso a paso. ¡Puedes hacerme preguntas en cualquier momento!"}
