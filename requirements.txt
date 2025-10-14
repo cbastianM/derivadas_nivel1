@@ -1,2 +1,2 @@
-import streamlit as st
-import google.generativeai
+streamlit
+google-genai
