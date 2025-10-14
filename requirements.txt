@@ -1,0 +1,4 @@
+streamlit
+json
+google.generativeai 
+google.api_core
