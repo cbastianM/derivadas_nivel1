@@ -7,7 +7,7 @@ from google.api_core import exceptions
 MODEL_NAME = "gemma-3-27b-it"
 API_KEY = ""
 
-st.set_page_config(page_title="Profesor Interactivo de Derivadas", page_icon="👨‍🏫")
+st.set_page_config(page_title="Puntos Críticos", page_icon="👨‍🏫")
 
 # --- 2. CARGA DE DATOS ---
 
