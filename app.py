@@ -5,7 +5,6 @@ from google.api_core import exceptions
 
 # --- 1. CONFIGURACIÓN Y CONSTANTES ---
 MODEL_NAME = "gemma-3-27b-it"
-API_KEY = ""
 
 st.set_page_config(page_title="Puntos Críticos", page_icon="👨‍🏫")
 
