@@ -1,102 +1,171 @@
 [
-  {
-    "id": 1,
-    "funcion": "$y=-18$",
-    "derivada": "$dy/dx=0$"
-  },
-  {
-    "id": 2,
-    "funcion": "$y=\\pi^6$",
-    "derivada": "$dy/dx=0$"
-  },
-  {
-    "id": 3,
-    "funcion": "$y=x^9$",
-    "derivada": "$dy/dx=9x^8$"
-  },
-  {
-    "id": 4,
-    "funcion": "$y=4x^{12}$",
-    "derivada": "$dy/dx=48x^{11}$"
-  },
-  {
-    "id": 5,
-    "funcion": "$y=7x^2-4x$",
-    "derivada": "$dy/dx=14x-4$"
-  },
-  {
-    "id": 6,
-    "funcion": "$y=6x^3+3x^2-10$",
-    "derivada": "$dy/dx=18x^2+6x$"
-  },
-  {
-    "id": 7,
-    "funcion": "$y=4\\sqrt{x}-\\frac{6}{\\sqrt[3]{x^2}}$",
-    "derivada": "$dy/dx=2x^{-1/2}+4x^{-5/3}=\\frac{2}{\\sqrt{x}}+\\frac{4\\sqrt[3]{x}}{x^2}$"
-  },
-  {
-    "id": 8,
-    "funcion": "$y=\\frac{x-x^2}{\\sqrt{x}}$",
-    "derivada": "$dy/dx=\\frac{1}{2}x^{-1/2}-\\frac{3}{2}x^{1/2}=\\frac{1}{2\\sqrt{x}}-\\frac{3}{2}\\sqrt{x}$"
-  },
-  {
-    "id": 9,
-    "funcion": "$f(x)=\\frac{1}{5}x^5-3x^4+9x^2+1$",
-    "derivada": "$f'(x)=x^4-12x^3+18x$"
-  },
-  {
-    "id": 10,
-    "funcion": "$f(x)=-\\frac{2}{3}x^6+4x^5-13x^2+8x+2$",
-    "derivada": "$f'(x)=-4x^5+20x^4-26x+8$"
-  },
-  {
-    "id": 11,
-    "funcion": "$f(x)=x^3(4x^2-5x-6)$",
-    "derivada": "$f'(x)=20x^4-20x^3-18x^2$"
-  },
-  {
-    "id": 12,
-    "funcion": "$f(x)=\\frac{2x^5+3x^4-x^3+2}{x^2}$",
-    "derivada": "$f'(x)=6x^2+6x-1-\\frac{4}{x^3}$"
-  },
-  {
-    "id": 13,
-    "funcion": "$f(x)=x^2(x^2+5)^2$",
-    "derivada": "$f'(x)=6x^5+40x^3+50x$"
-  },
-  {
-    "id": 14,
-    "funcion": "$f(x)=(x^3+x^2)^3$",
-    "derivada": "$f'(x)=9x^8+24x^7+21x^6+6x^5$"
-  },
-  {
-    "id": 15,
-    "funcion": "$f(x)=(4\\sqrt{x}+1)^2$",
-    "derivada": "No proporcionada en el solucionario"
-  },
-  {
-    "id": 16,
-    "funcion": "$f(x)=(9+x)(9-x)$",
-    "derivada": "$f'(x)=-2x$"
-  },
-  {
-    "id": 17,
-    "funcion": "$h(u)=(4u)^3$",
-    "derivada": "$h'(u)=192u^2$"
-  },
-  {
-    "id": 18,
-    "funcion": "$p(t)=(2t)^{-4}-(2t^{-1})^2$",
-    "derivada": "$p'(t)=-\\frac{1}{4}t^{-5}+8t^{-3}=-\\frac{1}{4t^5}+\\frac{8}{t^3}$"
-  },
-  {
-    "id": 19,
-    "funcion": "$g(r)=\\frac{1}{r}+\\frac{1}{r^2}+\\frac{1}{r^3}+\\frac{1}{r^4}$",
-    "derivada": "$g'(r)=-r^{-2}-2r^{-3}-3r^{-4}-4r^{-5}=-\\frac{1}{r^2}-\\frac{2}{r^3}-\\frac{3}{r^4}-\\frac{4}{r^5}$"
-  },
-  {
-    "id": 20,
-    "funcion": "$Q(t)=\\frac{t^5+4t^2-3}{6}$",
-    "derivada": "$Q'(t)=\\frac{5t^4+8t}{6}$"
-  }
+    {
+        "id": 1,
+        "function": "$f(x) = 2x^2 - 6x + 8$",
+        "derivative": "$\\frac{dy}{dx} = 4x - 6$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $4x - 6 = 0$. Resolviendo para $x$, obtenemos x=3/2"
+    },
+    {
+        "id": 2,
+        "function": "$f(x) = 2x^3 - 15x^2 - 36x$",
+        "derivative": "$\\frac{dy}{dx} = 6x^2 - 30x - 36$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $6x^2 - 30x - 36 = 0$. Resolviendo, obtenemos $x = -1$ y $x = 6$."
+    },
+    {
+        "id": 3,
+        "function": "$f(x) = (x - 2)^2(x - 1)$",
+        "derivative": "$\\frac{dy}{dx} = (x - 2)^2 + (x - 1)(2x - 4)$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $(x - 2)^2 + (x - 1)(2x - 4) = 0$. Resolviendo, obtenemos $x = 1$ y $x = 2$."
+    },
+    {
+        "id": 4,
+        "function": "$f(x) = 1 + \\frac{x}{\\sqrt{x}}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{1}{2x^{1/2}}$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{1}{2x^{1/2}} = 0$. No tiene soluciones reales."
+    },
+    {
+        "id": 5,
+        "function": "$f(x) = (4x - 3)^{1/3}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{1.3333}{(4x - 3)^{2/3}}$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{1.3333}{(4x - 3)^{2/3}} = 0$. No tiene soluciones reales."
+    },
+    {
+        "id": 6,
+        "function": "$f(x) = (x - 1)^2\\sqrt{x + 2}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{(x - 1)^2}{2\\sqrt{x + 2}} + \\sqrt{x + 2}(2x - 2)$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{(x - 1)^2}{2\\sqrt{x + 2}} + \\sqrt{x + 2}(2x - 2) = 0$. Resolviendo, obtenemos $x = 1$."
+    },
+    {
+        "id": 7,
+        "function": "$f(x) = -x + \\sin(x)$",
+        "derivative": "$\\frac{dy}{dx} = \\cos(x) - 1$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\cos(x) - 1 = 0$. Resolviendo, obtenemos $x = 2n\\pi$, donde $n$ es un entero."
+    },
+    {
+        "id": 8,
+        "function": "$f(x) = x^2 - 8\\ln(x)$",
+        "derivative": "$\\frac{dy}{dx} = 2x - \\frac{8}{x}$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $2x - \\frac{8}{x} = 0$. Resolviendo, obtenemos $x = 2$."
+    },
+    {
+        "id": 9,
+        "function": "$f(x) = x^3 + x^2 - 2$",
+        "derivative": "$\\frac{dy}{dx} = 3x^2 + 2x$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $3x^2 + 2x = 0$. Resolviendo, obtenemos $x = 0$ y $x = -\\frac{2}{3}$."
+    },
+    {
+        "id": 10,
+        "function": "$f(x) = x^4 - 4x^3 + 7$",
+        "derivative": "$\\frac{dy}{dx} = 4x^3 - 12x^2$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $4x^3 - 12x^2 = 0$. Resolviendo, obtenemos $x = 0$ y $x = 3$."
+    },
+    {
+        "id": 11,
+        "function": "$f(x) = x^2(x + 1)^3$",
+        "derivative": "$\\frac{dy}{dx} = 3x^2(x + 1)^2 + 2x(x + 1)^3$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $3x^2(x + 1)^2 + 2x(x + 1)^3 = 0$. Resolviendo, obtenemos $x = 0$ y $x = -1$."
+    },
+    {
+        "id": 12,
+        "function": "$f(x) = \\frac{x^2}{x^2 + 2}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{-2x^3}{(x^2 + 2)^2} + \\frac{2x}{x^2 + 2}$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{-2x^3}{(x^2 + 2)^2} + \\frac{2x}{x^2 + 2} = 0$. Resolviendo, obtenemos $x = 0$."
+    },
+    {
+        "id": 13,
+        "function": "$f(x) = x^{2/3} + x$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{2}{3}x^{-1/3} + 1$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{2}{3}x^{-1/3} + 1 = 0$. Resolviendo, obtenemos $x = -\\frac{8}{27}$."
+    },
+    {
+        "id": 14,
+        "function": "$f(x) = \\frac{x + 4}{\\sqrt{x} + 1}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{1}{\\sqrt{x} + 1} - \\frac{x + 4}{2\\sqrt{x}(\\sqrt{x} + 1)^2}$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $\\frac{1}{\\sqrt{x} + 1} - \\frac{x + 4}{2\\sqrt{x}(\\sqrt{x} + 1)^2} = 0$. Resolviendo, obtenemos $x = -1$."
+    },
+    {
+        "id": 15,
+        "function": "$f(x) = \\cos(4x)$",
+        "derivative": "$\\frac{dy}{dx} = -4\\sin(4x)$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $-4\\sin(4x) = 0$. Resolviendo, obtenemos $x = \\frac{n\\pi}{4}$, donde $n$ es un entero."
+    },
+    {
+        "id": 16,
+        "function": "$f(x) = e^{-x} + 2x$",
+        "derivative": "$\\frac{dy}{dx} = -e^{-x} + 2$",
+        "conclusion": "Puntos extremos: igualamos la derivada a cero: $-e^{-x} + 2 = 0$. Resolviendo, obtenemos $x = \\ln(2)$."
+    },
+    {
+        "id": 17,
+        "function": "$f(x) = x^{2/3}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{0.6667}{x^{1/3}}$",
+        "conclusion": "Derivative of $x^{2/3}$ is $\\frac{0.6667}{x^{1/3}}$."
+    },
+    {
+        "id": 18,
+        "function": "$f(x) = x^{2/3}(x^2 - 1)$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{0.6667(x^2 - 1)}{x^{1/3}} + 2x^{5/3}$",
+        "conclusion": "Derivative of $x^{2/3}(x^2 - 1)$ is $\\frac{0.6667(x^2 - 1)}{x^{1/3}} + 2x^{5/3}$."
+    },
+    {
+        "id": 19,
+        "function": "$f(x) = x^3 - 6x^2 + 2$",
+        "derivative": "$\\frac{dy}{dx} = 3x^2 - 12x$",
+        "conclusion": "Derivative of $x^3 - 6x^2 + 2$ is $3x^2 - 12x$."
+    },
+    {
+        "id": 20,
+        "function": "$f(x) = x^3 - x^2 + 5x$",
+        "derivative": "$\\frac{dy}{dx} = 3x^2 - 2x + 5$",
+        "conclusion": "Derivative of $x^3 - x^2 + 5x$ is $3x^2 - 2x + 5$."
+    },
+    {
+        "id": 21,
+        "function": "$f(x) = x^3 - 3x^2 + 3x - 1$",
+        "derivative": "$\\frac{dy}{dx} = 3x^2 - 6x + 3$",
+        "conclusion": "Derivative of $x^3 - 3x^2 + 3x - 1$ is $3x^2 - 6x + 3$."
+    },
+    {
+        "id": 22,
+        "function": "$f(x) = x^4 + 4x^3 - 10$",
+        "derivative": "$\\frac{dy}{dx} = 4x^3 + 12x^2$",
+        "conclusion": "Derivative of $x^4 + 4x^3 - 10$ is $4x^3 + 12x^2$."
+    },
+    {
+        "id": 23,
+        "function": "$f(x) = x^4(x - 1)^2$",
+        "derivative": "$\\frac{dy}{dx} = x^4(2x - 2) + 4x^3(x - 1)^2$",
+        "conclusion": "Derivative of $x^4(x - 1)^2$ is $x^4(2x - 2) + 4x^3(x - 1)^2$."
+    },
+    {
+        "id": 24,
+        "function": "$f(x) = \\frac{\\sqrt{x}}{x^2 + 1}$",
+        "derivative": "$\\frac{dy}{dx} = \\frac{-2x^{3/2}}{(x^2 + 1)^2} + \\frac{1}{2\\sqrt{x}(x^2 + 1)}$",
+        "conclusion": "Derivative of $\\frac{\\sqrt{x}}{x^2 + 1}$ is $\\frac{-2x^{3/2}}{(x^2 + 1)^2} + \\frac{1}{2\\sqrt{x}(x^2 + 1)}$."
+    },
+    {
+        "id": 25,
+        "function": "$f(x) = 2\\cos(2x) - \\cos(4x)$ [0, 2$\\pi$]",
+        "derivative": "$\\frac{dy}{dx} = -4\\sin(2x) + 4\\sin(4x)$",
+        "conclusion": "Derivative of $2\\cos(2x) - \\cos(4x)$ is $-4\\sin(2x) + 4\\sin(4x)$."
+    },
+    {
+        "id": 26,
+        "function": "$f(x) = 1 + 5\\sin(3x)$ [0, $\\pi/2$]",
+        "derivative": "$\\frac{dy}{dx} = 15\\cos(3x)$",
+        "conclusion": "Derivative of $1 + 5\\sin(3x)$ is $15\\cos(3x)$."
+    },
+    {
+        "id": 27,
+        "function": "$f(x) = 3 + 2(\\sin(24x))^2$ [0, $\\pi$]" ,
+        "derivative": "$\\frac{dy}{dx} = 96\\sin(24x)\\cos(24x)$",
+        "conclusion": "Derivative of $3 + 2\\sin(24x)^2$ is $96\\sin(24x)\\cos(24x)$."
+    },
+    {
+        "id": 28,
+        "function": "$f(x) = 2x - \\tan(x)$ [-1, 1.5]",
+        "derivative": "$\\frac{dy}{dx} = 1 - \\tan(x)^2$",
+        "conclusion": "Derivative of $2x - \\tan(x)$ is $1 - \\tan(x)^2$."
+    }
 ]
+
