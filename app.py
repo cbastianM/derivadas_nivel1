@@ -127,7 +127,7 @@ def obtener_respuesta_ia(historial, ejercicios):
         return "Lo siento, estoy teniendo problemas técnicos."
 
 # --- 4. INTERFAZ DE STREAMLIT (SIN CAMBIOS) ---
-st.title("👨‍🏫 Profesor Interactivo de Derivadas")
+st.title("👨‍🏫 Profesor Interactivo. Cálculo 1")
 st.caption("Elige un ejercicio y te enseñaré a resolverlo. ¡Pregúntame lo que necesites!")
 
 if API_KEY:
