@@ -142,7 +142,7 @@ if not EJERCICIOS:
     st.warning("La aplicación no puede iniciar porque la base de datos de ejercicios no se pudo cargar.")
 else:
     st.sidebar.markdown("---")
-    st.sidebar.markdown("### Ejercicios para Practicar")
+    st.sidebar.markdown("### Ejercicios. Hallar puntos críticos")
     for ej in EJERCICIOS:
         st.sidebar.markdown(f"**ID {ej['id']}**: {ej['function']}")
 
